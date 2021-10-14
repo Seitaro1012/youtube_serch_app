@@ -8,4 +8,4 @@ google-cloud-storage==1.42.2
 google-crc32c==1.2.0
 google-resumable-media==2.0.3
 googleapis-common-protos==1.53.0
-googleapiclient
+google-api-python-client==2.26.1
