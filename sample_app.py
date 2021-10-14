@@ -8,7 +8,7 @@ with open('secret.json') as f:
     secret = json.load(f)
 
 
-DEVELOPER_KEY = secret["KEY"]
+DEVELOPER_KEY = st.secrets["KEY"]
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 
